@@ -9,12 +9,12 @@ import javax.lang.model.element.Element;
  */
 
 public class RouteMeta {
-    public  enum Type{
+    public enum Type {
         ACTIVITY,
         ISERVICE
     }
 
-    private  Type type;
+    private Type type;
     /**
      * 节点 activity
      */
@@ -40,7 +40,51 @@ public class RouteMeta {
         this.group = group;
     }
 
-    public RouteMeta(Type type, Route route,Element element){
-        this(type,element,null,route.path(),route.group());
+    public static RouteMeta build(Type type, Class<?> destination, String path, String group) {
+        return new RouteMeta(type, null, destination, path, group);
+    }
+
+    public RouteMeta(Type type, Route route, Element element) {
+        this(type, element, null, route.path(), route.group());
+    }
+
+    public Type getType() {
+        return type;
+    }
+
+    public void setType(Type type) {
+        this.type = type;
+    }
+
+    public Element getElement() {
+        return element;
+    }
+
+    public void setElement(Element element) {
+        this.element = element;
+    }
+
+    public Class<?> getDestination() {
+        return destination;
+    }
+
+    public void setDestination(Class<?> destination) {
+        this.destination = destination;
+    }
+
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
+    }
+
+    public String getGroup() {
+        return group;
+    }
+
+    public void setGroup(String group) {
+        this.group = group;
     }
 }

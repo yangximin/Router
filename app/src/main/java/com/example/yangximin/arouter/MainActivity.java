@@ -1,8 +1,11 @@
 package com.example.yangximin.arouter;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
+import com.example.router.annotation.Route;
+
+@Route(path = "/main/home")
 public class MainActivity extends AppCompatActivity {
 
     @Override

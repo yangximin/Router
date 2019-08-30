@@ -14,8 +14,8 @@ public class Consts {
     public static final String ANN_TYPE_Extra = "com.example.router.annotation.Extra";
 
 
-    public static final String IROUTE_GROUP = "com.dongnao.router.core.template.IRouteGroup";
-    public static final String IROUTE_ROOT = "com.dongnao.router.core.template.IRouteRoot";
+    public static final String IROUTE_GROUP = "com.example.router.core.template.IRouteGroup";
+    public static final String IROUTE_ROOT = "com.example.router.core.template.IRouteRoot";
     public static final String IEXTRA = "com.dongnao.router.core.template.IExtra";
 
     public static final String METHOD_LOAD_INTO = "loadInto";
@@ -54,11 +54,11 @@ public class Consts {
 
 
     public static final String SEPARATOR = "$$";
-    public static final String PROJECT = "DNRouter";
+    public static final String PROJECT = "Router";
     public static final String NAME_OF_ROOT = PROJECT + SEPARATOR + "Root" + SEPARATOR;
     public static final String NAME_OF_GROUP = PROJECT + SEPARATOR + "Group" + SEPARATOR;
     public static final String NAME_OF_EXTRA = SEPARATOR + "Extra";
 
-    public static final String PACKAGE_OF_GENERATE_FILE = "com.dongnao.router.routes";
+    public static final String PACKAGE_OF_GENERATE_FILE = "com.example.router.routes";
 
 }
