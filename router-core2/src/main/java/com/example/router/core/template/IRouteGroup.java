@@ -11,5 +11,5 @@ import java.util.Map;
 
 public interface IRouteGroup {
 
-    void  loadInto(Map<String, RouteMeta> routes);
+    void  loadInto(Map<String,RouteMeta> routes);
 }
