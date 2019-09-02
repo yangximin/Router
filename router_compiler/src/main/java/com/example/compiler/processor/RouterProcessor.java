@@ -261,11 +261,11 @@ public class RouterProcessor extends AbstractProcessor {
 
     private boolean routerVerify(RouteMeta routeMeta) {
         String path = routeMeta.getPath();
-        String group = routeMeta.getPath();
+        String group = routeMeta.getGroup();
         if (Utils.isEmpty(path) || !path.startsWith("/")) {
             return false;
         }
-        if (!Utils.isEmpty(group)) {
+        if (Utils.isEmpty(group)) {
             String defaultGroup = path.substring(1, path.indexOf("/", 1));
             if (Utils.isEmpty(defaultGroup)) {
                 return false;

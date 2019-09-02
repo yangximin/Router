@@ -10,7 +10,10 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/router-annotation" />
+            <option value="$PROJECT_DIR$/router-core" />
+            <option value="$PROJECT_DIR$/router-core2" />
             <option value="$PROJECT_DIR$/router_compiler" />
+            <option value="$PROJECT_DIR$/test_module" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

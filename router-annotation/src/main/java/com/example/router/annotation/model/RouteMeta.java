@@ -32,6 +32,9 @@ public class RouteMeta {
      */
     private String group;
 
+    public RouteMeta() {
+    }
+
     public RouteMeta(Type type, Element element, Class<?> destination, String path, String group) {
         this.type = type;
         this.element = element;

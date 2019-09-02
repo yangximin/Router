@@ -7,8 +7,9 @@
     tools:context="com.example.yangximin.arouter.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/main_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

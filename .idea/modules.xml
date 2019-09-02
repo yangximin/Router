@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ARouter.iml" filepath="$PROJECT_DIR$/ARouter.iml" />
+      <module fileurl="file://E:\AndroidStudioPro\Router\ARouter.iml" filepath="E:\AndroidStudioPro\Router\ARouter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Router.iml" filepath="$PROJECT_DIR$/Router.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/router-annotation/router-annotation.iml" filepath="$PROJECT_DIR$/router-annotation/router-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/router-core/router-core.iml" filepath="$PROJECT_DIR$/router-core/router-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/router-core2/router-core2.iml" filepath="$PROJECT_DIR$/router-core2/router-core2.iml" />
       <module fileurl="file://$PROJECT_DIR$/router_compiler/router_compiler.iml" filepath="$PROJECT_DIR$/router_compiler/router_compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_module/test_module.iml" filepath="$PROJECT_DIR$/test_module/test_module.iml" />
     </modules>
   </component>
 </project>

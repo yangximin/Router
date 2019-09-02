@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.view.View;
 
 import com.example.router.annotation.Route;
+import com.example.router.core.Router;
 
 /**
  * Created by YXM
@@ -20,7 +21,7 @@ public class TestActivity extends Activity {
         findViewById(R.id.test_view).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Router.getInstance().build("/main/home").navigation(TestActivity.this);
             }
         });
     }
