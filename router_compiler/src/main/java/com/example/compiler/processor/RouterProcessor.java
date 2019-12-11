@@ -222,6 +222,7 @@ public class RouterProcessor extends AbstractProcessor {
             menthod.addStatement("routes.put($S,$T.class)", entries.getKey(),
                     ClassName.get(Consts.PACKAGE_OF_GENERATE_FILE, entries.getValue()));
         }
+
         String rootClassName = Consts.NAME_OF_ROOT + moduleName;
         TypeSpec typeSpec = TypeSpec.classBuilder(rootClassName)
                 .addSuperinterface(ClassName.get(iRouterRoot))
